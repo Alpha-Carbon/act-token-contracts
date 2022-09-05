@@ -53,7 +53,7 @@ deploy-testnet: (_deploy TESTNET_PARAMS TESTNET_CON_ARGS)
 BNB_TESTNET_PARAMS := "-i --rpc-url https://data-seed-prebsc-2-s2.binance.org:8545 --gas-price 10000000000" 
 deploy-bnb-testnet owner: (_deploy BNB_TESTNET_PARAMS owner + " 10000000000000000")
 
-BNB_TESTNET_PARAMS := "-i --rpc-url https://bsc-dataseed.binance.org --gas-price 10000000000" 
+BNB_PARAMS := "-i --rpc-url https://bsc-dataseed.binance.org --gas-price 10000000000" 
 deploy-bnb owner supply: (_deploy BNB_TESTNET_PARAMS owner + " " + supply)
 
 _deploy params con_args:
