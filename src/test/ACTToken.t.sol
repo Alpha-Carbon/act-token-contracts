@@ -232,14 +232,18 @@ contract ACTTokenBNBTest is DSTest {
         assertTrue(atm.hasRole(atm.DEFAULT_ADMIN_ROLE(), address(banker)));
 
         // owner can mint ACT
-        banker.mint(address(banker), 100_000);
+        uint256 totalSupplyBeforeMint = atm.totalSupply();
+        uint256 bankerBalanceBeforeMint = atm.balanceOf(address(banker));
+        uint256 mintAmount = 100_000;
+
+        banker.mint(address(banker), mintAmount);
         assertEq(
-            atm.balanceOf(address(banker)),
-            1_999_999_999_999_999_999_800_000
+            bankerBalanceBeforeMint + mintAmount,
+            atm.balanceOf(address(banker))
         );
 
         // check total supply of ACT after minted
-        assertEq(atm.totalSupply(), 2_000_000_000_000_000_000_100_000);
+        assertEq(totalSupplyBeforeMint + mintAmount, atm.totalSupply());
     }
 
     function createPermitHash(
