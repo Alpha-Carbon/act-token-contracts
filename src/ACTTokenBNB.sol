@@ -7,11 +7,11 @@ import "openzeppelin-contracts/security/Pausable.sol";
 import "openzeppelin-contracts/access/AccessControl.sol";
 
 contract ACTTokenBNB is ERC20Burnable, Pausable, AccessControl, ERC20Permit {
-    bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
-
-    constructor(address owner, uint256 supply) ERC20("Alpha Carbon Token", "ACT") ERC20Permit("Alpha Carbon Token") {
+    constructor(address owner, uint256 supply)
+        ERC20("Alpha Carbon Token", "ACT")
+        ERC20Permit("Alpha Carbon Token")
+    {
         _grantRole(DEFAULT_ADMIN_ROLE, owner);
-        _grantRole(PAUSER_ROLE, owner);
         _mint(owner, supply);
     }
 
@@ -19,20 +19,26 @@ contract ACTTokenBNB is ERC20Burnable, Pausable, AccessControl, ERC20Permit {
         return 18;
     }
 
-    function pause() public onlyRole(PAUSER_ROLE) {
+    function pause() public onlyRole(DEFAULT_ADMIN_ROLE) {
         _pause();
     }
 
-    function unpause() public onlyRole(PAUSER_ROLE) {
+    function unpause() public onlyRole(DEFAULT_ADMIN_ROLE) {
         _unpause();
     }
 
-    function _beforeTokenTransfer(address from, address to, uint256 amount)
-        internal
-        whenNotPaused
-        override
+    function mint(address owner, uint256 supply)
+        public
+        onlyRole(DEFAULT_ADMIN_ROLE)
     {
+        _mint(owner, supply);
+    }
+
+    function _beforeTokenTransfer(
+        address from,
+        address to,
+        uint256 amount
+    ) internal override whenNotPaused {
         super._beforeTokenTransfer(from, to, amount);
     }
 }
-
