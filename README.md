@@ -53,10 +53,10 @@ just deploy-testnet
 ## Deployment
 
 BNB Mainnet
-- Deployed at:  
-- Owner: 
-- Creation: https://bscscan.com/tx/
-- Token Explorer: https://bscscan.com/token/
+- Deployed at: `0x2de33F9DC49Ab68775160921E043d7DFC4BBB2B7`
+- Owner: `0x000c60CC125272938986077784EB41B7Cc537Ab8`
+- Creation: https://bscscan.com/tx/0x4e92b436bb19ad59089e7d412902584abbcbcc84c3890f1a40af3d202ce6d20b
+- Token Explorer: https://bscscan.com/token/0x2de33f9dc49ab68775160921e043d7dfc4bbb2b7
 
 - Verified with solc 0.8.6 + optimizer=true 200  + flatten
 - Constructor: 
