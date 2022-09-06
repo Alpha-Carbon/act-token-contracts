@@ -63,12 +63,12 @@ BNB Mainnet
 - Tool: `cast abi-encode "x(address,uint256)"`
 
 BNB Testnet
-- Deployed at: 
-- Owner:  
-- Creation: https://testnet.bscscan.com/tx/
-- Token Explorer: https://testnet.bscscan.com/token/
+- Deployed at: `0xB164cdd83b5d07ED91cd3E09Be983d5fee86C6DA`
+- Owner:  `0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308`
+- Creation: https://testnet.bscscan.com/tx/0xd03b8b3af0e29de8feeb8236f6c14deb3a16afebd7433a93574253a5789cdeea
+- Token Explorer: https://testnet.bscscan.com/token/0xb164cdd83b5d07ed91cd3e09be983d5fee86c6da
 
-- Verified with solc 0.8.10 + optimizer=true 200 + flatten
+- Verified with solc 0.8.6 + optimizer=true 200 + flatten
 - Constructor: 
 - Tool: `cast abi-encode "x(address,uint256)"`
 - ABI Encoder https://abi.hashex.org/
