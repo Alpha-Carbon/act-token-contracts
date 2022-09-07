@@ -39,7 +39,7 @@ flatten:
 # estimate :; ./scripts/estimate-gas.sh ${contract}
 # size   :; ./scripts/contract-size.sh ${contract}
 abi-out:
-	jq '.abi' ./out/ACTTokenBNB.sol/ACTToken.json > ./out/ACTTokenBNBAbi.json
+	jq '.abi' ./out/ACTTokenBNB.sol/ACTTokenBNB.json > ./out/ACTTokenBNBAbi.json
 	# cp -r ./out/AminoTokenAbi.json ./frontend/src
 
 testnet:
