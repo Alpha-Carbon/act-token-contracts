@@ -99,3 +99,10 @@ just deploy-testnet
     - Website: https://pancake.kiemtienonline360.com/#/swap
     - Creation: https://testnet.bscscan.com/tx/0xbd74fc9f8dba782f8b9ac639e3456e0908a95cd24dfe8b1690bfcb2ed412e875
     - Pair address: `0xe58eE18d5c232181293c7Cd6C84d8b5f469704b7`
+
+### Goerli(ETH) Testnet
+- **USDA**:
+    - Deployed at: `0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3`
+    - Owner: `0x7538ca394554cfbed136dbd81f0b3cbe7b496540`
+    - Creation: https://goerli.etherscan.io/tx/0x2ddb165d37b495c5127e0b7266876b633afed0416e870f2e517a3b96f6726293
+    - Token Explorer: https://goerli.etherscan.io/token/0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3
