@@ -106,3 +106,12 @@ just deploy-testnet
     - Owner: `0x7538ca394554cfbed136dbd81f0b3cbe7b496540`
     - Creation: https://goerli.etherscan.io/tx/0x2ddb165d37b495c5127e0b7266876b633afed0416e870f2e517a3b96f6726293
     - Token Explorer: https://goerli.etherscan.io/token/0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3
+
+
+
+### Shasta(TRON) Testnet
+- **USDA**:
+    - Deployed at: `TVn5PASeibyEkNgGn7KzmHC5FYt6Knrk7d    (0xd9479486081278a1a626262082ea2042648687cb)`
+    - Owner: `TGPBGs3yybwDkTtmT5AwUjXe6Q4NbGMzwa    (0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308)`
+    - Creation: https://shasta.tronscan.io/#/transaction/a9f777d6da47b76ee876d0472756933e31fc572bd05801cca78817529a74a547
+    - Token Explorer: https://shasta.tronscan.io/#/contract/TVn5PASeibyEkNgGn7KzmHC5FYt6Knrk7d/events
