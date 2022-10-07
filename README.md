@@ -56,6 +56,8 @@ just deploy-testnet
         - Verified with solc 0.8.6 + optimizer=true 200  + flatten
         - Constructor: 
         - Tool: `cast abi-encode "x(address,uint256)"`
+    - Basic Info:
+        - Decimal: 18
     
 - **BSC-USD**:
     - Deployed at: `0x55d398326f99059fF775485246999027B3197955`
@@ -66,6 +68,9 @@ just deploy-testnet
         - Verified with solc 0.5.16 + optimizer=true 200  + flatten
         - Constructor: 
         - Tool: `cast abi-encode "x(address,uint256)"`
+    - Basic Info:
+        - Decimal: 18
+    
 
 - **PancakeSwap**:
     - Website: https://pancakeswap.finance/?chainId=97
@@ -83,6 +88,8 @@ just deploy-testnet
         - Constructor: 
         - Tool: `cast abi-encode "x(address,uint256)"`
         - ABI Encoder https://abi.hashex.org/
+    - Basic Info:
+        - Decimal: 18
 
 - **USDA**:
     - Deployed at: `0xffBfE5fcbecED10b385601Cc78fECfc33BeE237b`
@@ -94,6 +101,8 @@ just deploy-testnet
         - Constructor: 
         - Tool: `cast abi-encode "x(address,uint256)"`
         - ABI Encoder https://abi.hashex.org/
+    - Basic Info:
+        - Decimal: 18
 
 - **PancakeSwap**:
     - Website: https://pancake.kiemtienonline360.com/#/swap
@@ -106,6 +115,8 @@ just deploy-testnet
     - Owner: `0x7538ca394554cfbed136dbd81f0b3cbe7b496540`
     - Creation: https://goerli.etherscan.io/tx/0x2ddb165d37b495c5127e0b7266876b633afed0416e870f2e517a3b96f6726293
     - Token Explorer: https://goerli.etherscan.io/token/0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3
+    - Basic Info:
+        - Decimal: 6
 
 
 
@@ -114,4 +125,6 @@ just deploy-testnet
     - Deployed at: `TVn5PASeibyEkNgGn7KzmHC5FYt6Knrk7d    (0xd9479486081278a1a626262082ea2042648687cb)`
     - Owner: `TGPBGs3yybwDkTtmT5AwUjXe6Q4NbGMzwa    (0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308)`
     - Creation: https://shasta.tronscan.io/#/transaction/a9f777d6da47b76ee876d0472756933e31fc572bd05801cca78817529a74a547
-    - Token Explorer: https://shasta.tronscan.io/#/contract/TVn5PASeibyEkNgGn7KzmHC5FYt6Knrk7d/events
+    - Token Explorer: https://shasta.tronscan.io/#/token20/TVn5PASeibyEkNgGn7KzmHC5FYt6Knrk7d
+    - Basic Info:
+        - Decimal: 6
