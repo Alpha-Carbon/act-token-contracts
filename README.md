@@ -109,6 +109,11 @@ just deploy-testnet
     - Creation: https://testnet.bscscan.com/tx/0xbd74fc9f8dba782f8b9ac639e3456e0908a95cd24dfe8b1690bfcb2ed412e875
     - Pair address: `0xe58eE18d5c232181293c7Cd6C84d8b5f469704b7`
 
+- **SendMany**:
+    - Deployed at: `0x13cccd645eeb01ce10e0ba276035451d21e18ea8`
+    - Creation: https://testnet.bscscan.com/tx/0x610ebc9349b1a87a3055b3114da2f9b7ed3d1f9d3aac8c4b07b4e0b92bcf6ef8
+
+
 ### Goerli(ETH) Testnet
 - **USDA**:
     - Deployed at: `0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3`
@@ -128,3 +133,7 @@ just deploy-testnet
     - Token Explorer: https://shasta.tronscan.io/#/token20/TVn5PASeibyEkNgGn7KzmHC5FYt6Knrk7d
     - Basic Info:
         - Decimal: 6
+
+- **SendMany**:
+    - Deployed at:  `TNzsFdiRp9vXJbMHM2tanTkHyFzLztZmN7    (0x8ee9fb51fd3e3a457029e35b99a4648070bda9f5)`
+    - Creation: https://shasta.tronscan.io/#/transaction/f8bccf6dbee57d801f05d9443e66b1325b83e53ed38902e6fe8d3361b23757ac
