@@ -123,6 +123,9 @@ just deploy-testnet
     - Basic Info:
         - Decimal: 6
 
+- **SendMany**:
+    - Deployed at: `0xf5481f606FA9A35Be9ac4166bdd997F202D04507`
+    - Creation: https://goerli.etherscan.io/tx/0x6c1af94b1bcc84149240055d11ce57b16f8aa935537d66d9f823932043f12d84
 
 
 ### Shasta(TRON) Testnet
