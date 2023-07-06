@@ -140,3 +140,35 @@ just deploy-testnet
 - **SendMany**:
     - Deployed at:  `TNzsFdiRp9vXJbMHM2tanTkHyFzLztZmN7    (0x8ee9fb51fd3e3a457029e35b99a4648070bda9f5)`
     - Creation: https://shasta.tronscan.io/#/transaction/f8bccf6dbee57d801f05d9443e66b1325b83e53ed38902e6fe8d3361b23757ac
+
+
+### Mumbai(Polygon) Testnet
+- **ACT**:
+    - Deployed at: `0x61C590cA0FF6DF620F84E6cB7C92B208Df7a588f`
+    - Owner:  `0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308`
+    - Creation: https://mumbai.polygonscan.com/tx/0x7ce1d02031e9d2f530df760847f98d7910c98dee2d240e3464a79ccf359352e9
+    - Token Explorer: https://mumbai.polygonscan.com/address/0x61c590ca0ff6df620f84e6cb7c92b208df7a588f
+    - Verified Detail:
+        - Verified with solc 0.8.6 + optimizer=true 200 + flatten
+        - Constructor: 
+        - Tool: `cast abi-encode "x(address,uint256)"`
+        - ABI Encoder https://abi.hashex.org/
+    - Basic Info:
+        - Decimal: 6
+
+- **USDA**:
+    - Deployed at: `0xD7C7f1a7fA64a5Ff036952Fd5e0a225cd2b766FB`
+    - Owner:  `0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308`
+    - Creation: https://mumbai.polygonscan.com/tx/0x6811e3b0318b572d177b3bdf590c1171f1e9778bdb738818b588aaf8c1f05bcb
+    - Token Explorer: https://mumbai.polygonscan.com/address/0xd7c7f1a7fa64a5ff036952fd5e0a225cd2b766fb
+    - Verified Detail:
+        - Verified with solc 0.8.6 + optimizer=true 200 + flatten
+        - Constructor: 
+        - Tool: `cast abi-encode "x(address,uint256)"`
+        - ABI Encoder https://abi.hashex.org/
+    - Basic Info:
+        - Decimal: 6
+
+- **SendMany**:
+    - Deployed at: `0x13bcb4B58926096858E2e51dD3f156826e140b0c`
+    - Creation: https://mumbai.polygonscan.com/tx/0x3141578e687f1bf4a22cf7e7308dd47d6f83097a87a8e2533826115883b4e3f4

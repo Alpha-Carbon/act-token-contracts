@@ -56,6 +56,9 @@ deploy-bnb-testnet owner: (_deploy BNB_TESTNET_PARAMS owner + " 2000000000000000
 BNB_PARAMS := "-i --rpc-url https://bsc-dataseed.binance.org --gas-price 10000000000" 
 deploy-bnb owner supply: (_deploy BNB_PARAMS owner + " " + supply)
 
+POLYGON_TESTNET_PARAMS := "-i --rpc-url https://rpc-mumbai.maticvigil.com/ --gas-price 10000000000" 
+deploy-ply-testnet owner: (_deploy POLYGON_TESTNET_PARAMS owner + " 2000000000000000000000000")
+
 _deploy params con_args:
     echo {{params}}
     echo {{con_args}}
