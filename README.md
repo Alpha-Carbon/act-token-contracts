@@ -114,18 +114,18 @@ just deploy-testnet
     - Creation: https://testnet.bscscan.com/tx/0x610ebc9349b1a87a3055b3114da2f9b7ed3d1f9d3aac8c4b07b4e0b92bcf6ef8
 
 
-### Goerli(ETH) Testnet
+### Sepolia(ETH) Testnet
 - **USDA**:
-    - Deployed at: `0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3`
-    - Owner: `0x7538ca394554cfbed136dbd81f0b3cbe7b496540`
-    - Creation: https://goerli.etherscan.io/tx/0x2ddb165d37b495c5127e0b7266876b633afed0416e870f2e517a3b96f6726293
-    - Token Explorer: https://goerli.etherscan.io/token/0x4845D30D9B907BA5353724BE1260BC1Eb857cdA3
+    - Deployed at: `0xe1f526D32E05697b68B518f4a7dEa4A2dD0Ad4C0`
+    - Owner: `0x798d4Ba9baf0064Ec19eB4F0a1a45785ae9D6DFc`
+    - Creation: https://sepolia.etherscan.io/tx/0xa1fe2bbd6e5d5012d936572720496ec8cfea2e7dd400f32d8e53e034716a2672
+    - Token Explorer: https://sepolia.etherscan.io/address/0xe1f526d32e05697b68b518f4a7dea4a2dd0ad4c0
     - Basic Info:
         - Decimal: 6
 
 - **SendMany**:
-    - Deployed at: `0xf5481f606FA9A35Be9ac4166bdd997F202D04507`
-    - Creation: https://goerli.etherscan.io/tx/0x6c1af94b1bcc84149240055d11ce57b16f8aa935537d66d9f823932043f12d84
+    - Deployed at: `0xE915706c75C237789eFCD7fE6b284931c8376E7c`
+    - Creation: https://sepolia.etherscan.io/tx/0x17d1e351f57edfd17dd056f9ae51717a218260b25624c80f2173e127cf96e77a
 
 
 ### Shasta(TRON) Testnet
@@ -158,34 +158,3 @@ just deploy-testnet
 - **SendMany**:
     - Deployed at: `0xE915706c75C237789eFCD7fE6b284931c8376E7c`
     - Creation: https://www.oklink.com/amoy/tx/0x8f73e27a6381e233c916df4d043760958145b289a8d0f287c12c7ad0ce39bcf3
-
-### Mumbai(Polygon) Testnet(Deprecated)
-- **ACT**:
-    - Deployed at: `0x61C590cA0FF6DF620F84E6cB7C92B208Df7a588f`
-    - Owner:  `0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308`
-    - Creation: https://mumbai.polygonscan.com/tx/0x7ce1d02031e9d2f530df760847f98d7910c98dee2d240e3464a79ccf359352e9
-    - Token Explorer: https://mumbai.polygonscan.com/address/0x61c590ca0ff6df620f84e6cb7c92b208df7a588f
-    - Verified Detail:
-        - Verified with solc 0.8.6 + optimizer=true 200 + flatten
-        - Constructor: 
-        - Tool: `cast abi-encode "x(address,uint256)"`
-        - ABI Encoder https://abi.hashex.org/
-    - Basic Info:
-        - Decimal: 6
-
-- **USDA**:
-    - Deployed at: `0xD7C7f1a7fA64a5Ff036952Fd5e0a225cd2b766FB`
-    - Owner:  `0x46594bb57b9CcA5a4B2c968E3A4bAFb258587308`
-    - Creation: https://mumbai.polygonscan.com/tx/0x6811e3b0318b572d177b3bdf590c1171f1e9778bdb738818b588aaf8c1f05bcb
-    - Token Explorer: https://mumbai.polygonscan.com/address/0xd7c7f1a7fa64a5ff036952fd5e0a225cd2b766fb
-    - Verified Detail:
-        - Verified with solc 0.8.6 + optimizer=true 200 + flatten
-        - Constructor: 
-        - Tool: `cast abi-encode "x(address,uint256)"`
-        - ABI Encoder https://abi.hashex.org/
-    - Basic Info:
-        - Decimal: 6
-
-- **SendMany**:
-    - Deployed at: `0x13bcb4B58926096858E2e51dD3f156826e140b0c`
-    - Creation: https://mumbai.polygonscan.com/tx/0x3141578e687f1bf4a22cf7e7308dd47d6f83097a87a8e2533826115883b4e3f4
