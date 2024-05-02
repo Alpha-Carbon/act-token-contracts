@@ -158,3 +158,21 @@ just deploy-testnet
 - **SendMany**:
     - Deployed at: `0xE915706c75C237789eFCD7fE6b284931c8376E7c`
     - Creation: https://www.oklink.com/amoy/tx/0x8f73e27a6381e233c916df4d043760958145b289a8d0f287c12c7ad0ce39bcf3
+
+### Cardona(Polygon zkEVM) Testnet
+- **USDA**:
+    - Deployed at: `0xffc2c0a85e9cc6137f177ea13b1e67a1c2b0cffa`
+    - Owner:  `0x798d4Ba9baf0064Ec19eB4F0a1a45785ae9D6DFc`
+    - Creation: https://cardona-zkevm.polygonscan.com/tx/0x27710f56b824897daff7c11858df085b9c113c5da2ba282f627cff966bc15170
+    - Token Explorer: https://cardona-zkevm.polygonscan.com/address/0xffc2c0a85e9cc6137f177ea13b1e67a1c2b0cffa
+    - Verified Detail:
+        - Verified with solc 0.8.25 + optimizer=true 200 + flatten
+        - Constructor: 
+        - Tool: `cast abi-encode "x(address,uint256)"`
+        - ABI Encoder https://abi.hashex.org/
+    - Basic Info:
+        - Decimal: 6
+
+- **SendMany**:
+    - Deployed at: `0x85db596ec5753f6fe5b295b8dab005980ec56815`
+    - Creation: https://cardona-zkevm.polygonscan.com/tx/0x180a7fa304eb584e8f63c8bf549abf81475cee8d6a8e85a0798a5e3b5d9891ce
