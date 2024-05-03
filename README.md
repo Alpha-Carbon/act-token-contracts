@@ -161,12 +161,12 @@ just deploy-testnet
 
 ### Cardona(Polygon zkEVM) Testnet
 - **USDA**:
-    - Deployed at: `0xffc2c0a85e9cc6137f177ea13b1e67a1c2b0cffa`
+    - Deployed at: `0xF10FA2Bee5660aBE28d18dad74387987A9538D27`
     - Owner:  `0x798d4Ba9baf0064Ec19eB4F0a1a45785ae9D6DFc`
-    - Creation: https://cardona-zkevm.polygonscan.com/tx/0x27710f56b824897daff7c11858df085b9c113c5da2ba282f627cff966bc15170
-    - Token Explorer: https://cardona-zkevm.polygonscan.com/address/0xffc2c0a85e9cc6137f177ea13b1e67a1c2b0cffa
+    - Creation: https://cardona-zkevm.polygonscan.com/tx/0xadc9f51a63b4172d9085385075775b2f4d1ee42702384cc2f49d829c4aa7d72a
+    - Token Explorer: https://cardona-zkevm.polygonscan.com/address/0xf10fa2bee5660abe28d18dad74387987a9538d27#readContract
     - Verified Detail:
-        - Verified with solc 0.8.25 + optimizer=true 200 + flatten
+        - Verified with solc 0.8.5 + optimizer=true 200 + flatten
         - Constructor: 
         - Tool: `cast abi-encode "x(address,uint256)"`
         - ABI Encoder https://abi.hashex.org/
