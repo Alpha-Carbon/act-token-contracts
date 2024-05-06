@@ -145,8 +145,8 @@ just deploy-testnet
 - **USDA**:
     - Deployed at: `0xe1f526D32E05697b68B518f4a7dEa4A2dD0Ad4C0`
     - Owner:  `0x798d4Ba9baf0064Ec19eB4F0a1a45785ae9D6DFc`
-    - Creation: https://www.oklink.com/amoy/tx/0x87b7bf0b9c22f9188e704da3f851692910785d1822974deeed4a5a3ed8af465f
-    - Token Explorer: https://www.oklink.com/amoy/address/0xe1f526d32e05697b68b518f4a7dea4a2dd0ad4c0
+    - Creation: https://amoy.polygonscan.com/tx/0x87b7bf0b9c22f9188e704da3f851692910785d1822974deeed4a5a3ed8af465f
+    - Token Explorer: https://amoy.polygonscan.com/address/0xe1f526d32e05697b68b518f4a7dea4a2dd0ad4c0
     - Verified Detail:
         - Verified with solc 0.8.6 + optimizer=true 200 + flatten
         - Constructor: 
@@ -157,7 +157,7 @@ just deploy-testnet
 
 - **SendMany**:
     - Deployed at: `0xE915706c75C237789eFCD7fE6b284931c8376E7c`
-    - Creation: https://www.oklink.com/amoy/tx/0x8f73e27a6381e233c916df4d043760958145b289a8d0f287c12c7ad0ce39bcf3
+    - Creation: https://amoy.polygonscan.com/tx/0x8f73e27a6381e233c916df4d043760958145b289a8d0f287c12c7ad0ce39bcf3
 
 ### Cardona(Polygon zkEVM) Testnet
 - **USDA**:
